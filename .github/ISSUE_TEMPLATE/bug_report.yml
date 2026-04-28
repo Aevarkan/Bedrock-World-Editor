@@ -58,21 +58,21 @@ body:
       If you are on a desktop platform, fill in the following details.
 
 - type: input
+  id: OS.desktop
   attributes:
     label: OS
-    id: OS.desktop
     description: "Your operating system."
     placeholder: "e.g. Windows 10"
 - type: input
+  id: Browser.desktop
   attributes:
     label: Browser
-    id: Browser.desktop
     description: "Your browser."
     placeholder: "e.g. Chrome, Safari"
 - type: input
+  id: Version.desktop
   attributes:
     label: Version
-    id: Version.desktop
     description: "The application version."
     placeholder: "e.g. 22"
 
@@ -82,27 +82,27 @@ body:
       ### Mobile
       If you are on a mobile platform, fill in the following details.
 - type: input
+  id: Device.mobile
   attributes:
     label: Device
-    id: Device.mobile
     description: "Your device model."
     placeholder: "e.g. iPhone6"
 - type: input
+  id: OS.mobile
   attributes:
     label: OS
-    id: OS.mobile
     description: "Your operating system."
     placeholder: "e.g. iOS8.1"
 - type: input
+  id: Browser.mobile
   attributes:
     label: Browser
-    id: Browser.mobile
     description: "Your browser."
     placeholder: "e.g. Chrome, Safari"
 - type: input
+  id: Version.mobile
   attributes:
     label: Version
-    id: Version.mobile
     description: "The application version."
     placeholder: "e.g. 22"
 
