@@ -36,9 +36,9 @@ body:
     label: Screenshots
     description: |
       If applicable, add screenshots to help explain your problem.
-      It is recommended to press F3 twice to show the "basic" debug overlay so that helpful debugging information is included in your screenshot.
+      It is recommended you press F3 twice to show the "basic" debug overlay so that helpful debugging information is included in your screenshot.
 
-      A size limit of 10MB applies.
+      A size limit of 10MB applies. Images must be of `.png,.jpg,.jpeg,.gif,.svg,.webp` formats.
   validations:
     accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
 
