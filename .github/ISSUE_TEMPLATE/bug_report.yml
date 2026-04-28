@@ -45,7 +45,7 @@ body:
   attributes:
     value: "## System Details"
     
-- type: dropdown:
+- type: dropdown
   attributes:
     label: Are you using a desktop or mobile version of the application?
     options:
