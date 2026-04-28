@@ -1,0 +1,111 @@
+name: Bug report
+description: Create a report to help us improve
+title: ''
+labels: bug
+type: Bug
+assignees: ''
+body:
+- type: markdown
+  attributes:
+    value: "Thanks for taking the time to file this report! To begin, fill in the details below."
+- type: markdown
+  attributes:
+    value: "## Bug Details"
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: "A clear and concise description of what the bug is."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Replication steps
+    description: "How can we replicate the behaviour described in the above section? Be specific."
+    value: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected behavior
+    description: "A clear and concise description of what you expected to happen."
+  validations:
+    required: true
+- type: upload
+  attributes:
+    label: Screenshots
+    description: "If applicable, add screenshots to help explain your problem. It is recommended to press F3 twice to show the "basic" debug overlay so that helpful debugging information is included in your screenshot."
+  validations:
+    accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
+
+- type: markdown
+  attributes:
+    value: "## System Details"
+    
+- type: dropdown:
+  attributes:
+    label: Are you using a desktop or mobile version of the application?
+    options:
+      - Desktop
+      - Mobile
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: |
+      ### Desktop
+      If you are on a desktop platform, fill in the following details.
+
+- type: input
+  attributes:
+    label: OS
+    description: "Your operating system."
+    placeholder: "e.g. Windows 10"
+- type: input
+  attributes:
+    label: Browser
+    description: "Your browser."
+    placeholder: "e.g. Chrome, Safari"
+- type: input
+  attributes:
+    label: Version
+    description: "The application version."
+    placeholder: "e.g. 22"
+
+- type: markdown
+  attributes:
+    value: |
+      ### Mobile
+      If you are on a mobile platform, fill in the following details.
+- type: input
+  attributes:
+    label: OS
+    description: "Your device model."
+    placeholder: "e.g. iPhone6"
+- type: input
+  attributes:
+    label: OS
+    description: "Your operating system."
+    placeholder: "e.g. iOS8.1"
+- type: input
+  attributes:
+    label: Browser
+    description: "Your browser."
+    placeholder: "e.g. Chrome, Safari"
+- type: input
+  attributes:
+    label: Version
+    description: "The application version."
+    placeholder: "e.g. 22"
+
+- type: markdown
+  attributes:
+    value: "## Other Details"
+- type: textarea
+  attributes:
+    label: Additional Context
+    description: "Add any other context about the problem here."
