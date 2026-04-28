@@ -37,7 +37,7 @@ body:
 - type: upload
   attributes:
     label: Screenshots
-    description: "If applicable, add screenshots to help explain your problem. It is recommended to press F3 twice to show the "basic" debug overlay so that helpful debugging information is included in your screenshot."
+    description: 'If applicable, add screenshots to help explain your problem. It is recommended to press F3 twice to show the "basic" debug overlay so that helpful debugging information is included in your screenshot.'
   validations:
     accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
 
