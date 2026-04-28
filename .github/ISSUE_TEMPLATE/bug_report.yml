@@ -38,7 +38,7 @@ body:
       If applicable, add screenshots to help explain your problem.
       It is recommended you press F3 twice to show the "basic" debug overlay so that helpful debugging information is included in your screenshot.
 
-      A size limit of 10MB applies. Images must be of `.png,.jpg,.jpeg,.gif,.svg,.webp` formats.
+      A size limit of 10MB applies. Images must be in one of the following formats: `.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`, or `.webp`
   validations:
     accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
 
