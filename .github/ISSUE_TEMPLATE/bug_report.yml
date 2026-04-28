@@ -44,14 +44,18 @@ body:
 
 - type: input
   attributes:
-    label: OS
-    description: "What is your operating system?"
+    label: Operating System
+    description: "What is the operating system of your device?"
     placeholder: "e.g. Windows 10, iOS 26.2"
+  validations:
+    required: true
 - type: input
   attributes:
     label: Bedrock World Editor Version
     description: "What version of Bedrock World Editor did this bug occur on?"
-    placeholder: "1.0.0-beta.27"
+    placeholder: "e.g. 1.0.0-beta.27"
+  validations:
+    required: true
 
 
 - type: markdown
